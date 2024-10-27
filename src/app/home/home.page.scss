@@ -56,3 +56,10 @@ ion-col {
   --background: #F0F0F0; 
   --border: 2px solid #A9A9A9; 
 }
+
+/* Estilo para la imagen */
+.small-image {
+  width: 50%; /* Ajusta este porcentaje según lo necesites */
+  max-width: 150px; /* Cambia este valor según el tamaño máximo que desees */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
