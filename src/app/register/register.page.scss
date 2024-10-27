@@ -1,0 +1,56 @@
+.register-background {
+  background-image: url('/assets/img/888.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: 20px;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
+
+/* Estilo para el botón de Registrarse */
+.btn-custom {
+  --background: #FFFFFF; /* Fondo blanco */
+  --color: #3E2723; /* Texto en café oscuro */
+  --border: 2px solid #D3D3D3; /* Borde gris claro */
+  --box-shadow: none; /* Eliminar sombra si lo deseas */
+  transition: background-color 0.3s, border-color 0.3s; /* Suavizar transiciones */
+}
+
+.btn-custom:hover {
+  --background: #F0F0F0; /* Fondo más claro al pasar el ratón */
+  --border: 2px solid #A9A9A9; /* Borde más oscuro al pasar el ratón */
+}
+
+ion-avatar {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+}
+
+ion-avatar img {
+  border-radius: 50%;
+  border: 2px solid #FFFFFF; /* Borde blanco alrededor de la imagen */
+}
+
+/* Estilo para el enlace de iniciar sesión */
+.link-custom {
+  color: #FFFFFF; /* Color blanco para el enlace */
+}
+
+.link-custom:hover {
+  text-decoration: underline; /* Opcional: subrayar al pasar el ratón */
+}

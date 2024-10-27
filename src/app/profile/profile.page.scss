@@ -1,0 +1,61 @@
+.profile-background {
+    background-image: url('/assets/img/test.gif'); /* Cambia esto a tu imagen de fondo deseada */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ion-avatar {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  ion-item {
+    margin-bottom: 10px;
+  }
+  
+  .btn-custom {
+    --background: #FFFFFF; /* Fondo blanco */
+    --color: #3E2723; /* Texto en café oscuro */
+    --border: 2px solid #D3D3D3; /* Borde gris claro */
+    --box-shadow: none; /* Eliminar sombra si lo deseas */
+    transition: background-color 0.3s, border-color 0.3s; /* Suavizar transiciones */
+  }
+  
+  .btn-custom:hover {
+    --background: #F0F0F0; /* Fondo más claro al pasar el ratón */
+    --border: 2px solid #A9A9A9; /* Borde más oscuro al pasar el ratón */
+  }
+  .btn-update:hover {
+    --background: #C2A09C; /* Un marrón más oscuro al pasar el ratón */
+    --border: 2px solid #8B6B5B; /* Borde más oscuro al pasar el ratón */
+  }
+  
+  .btn-redirect {
+    --background: #A89B8D; /* Marrón más oscuro */
+    --color: #3E2723; /* Texto en café oscuro */
+    font-weight: bold; /* Texto más marcado */
+    --border: 2px solid #8B6B5B; /* Borde gris más oscuro */
+    transition: background-color 0.3s, border-color 0.3s; /* Suavizar transiciones */
+  }
+  
+  .btn-redirect:hover {
+    --background: #C2A09C; /* Un marrón más claro al pasar el ratón */
+    --border: 2px solid #8B6B5B; /* Borde más oscuro al pasar el ratón */
+  }
+  .btn-update {
+    --background: #D3B9A1; /* Marrón claro */
+    --color: #3E2723; /* Texto en café oscuro */
+    font-weight: bold; /* Texto más marcado */
+    --border: 2px solid #A9A9A9; /* Borde gris claro */
+    transition: background-color 0.3s, border-color 0.3s; /* Suavizar transiciones */
+  }

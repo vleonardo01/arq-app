@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Iniciar Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="login-background">
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="12" size-md="6">
+          <ion-avatar>
+            <a routerLink="/profile">
+              <img src="assets/img/image.png" alt="Silhouette of a person's head" />
+            </a>
+          </ion-avatar>
+
+          <!-- Contenedor para el formulario -->
+          <div class="form-container">
+            <!-- Formulario de Inicio de Sesión -->
+            <form (ngSubmit)="onLogin()">
+              <ion-item>
+                <ion-label position="floating">Correo Electrónico</ion-label>
+                <ion-input type="email" [(ngModel)]="email" name="email" #emailInput="ngModel" required></ion-input>
+              </ion-item>
+              <p *ngIf="emailInput.errors?.['required']">Correo es requerido</p>
+              <p *ngIf="emailInput.errors?.['email']">Correo no es válido</p>
+
+              <ion-item>
+                <ion-label position="floating">Contraseña</ion-label>
+                <ion-input type="password" [(ngModel)]="password" name="password" #passwordInput="ngModel" required minlength="6"></ion-input>
+              </ion-item>
+              <p *ngIf="passwordInput.errors?.['required']">Contraseña es requerida</p>
+              <p *ngIf="passwordInput.errors?.['minlength']">Contraseña debe tener al menos 6 caracteres</p>
+
+              <ion-button expand="block" class="btn-custom" type="submit">
+                Iniciar Sesión
+              </ion-button>
+
+              <p class="ion-text-center">
+                ¿No tienes una cuenta? <a routerLink="/register">¡Regístrate!</a>

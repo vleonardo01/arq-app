@@ -1,0 +1,28 @@
+<ion-content fullscreen>
+  <div class="home-background">
+    <ion-grid>
+      <ion-row class="ion-justify-content-center ion-align-items-center">
+        <ion-col size="12" size-md="8" size-lg="6">
+
+          <h1 class="home-title ion-text-center">
+            <img src="assets/img/image.png" alt="Silhouette of a person's head" />
+          </h1>
+
+          <p class="home-message ion-text-center">
+            ¡Bienvenido!
+          </p>
+
+          <div class="button-group ion-text-center">
+            <ion-button expand="block" class="btn-custom" (click)="goToLogin()">
+              Ingresar
+            </ion-button>
+            <ion-button expand="block" class="btn-custom" (click)="goToRegister()">
+              Registrarse
+            </ion-button>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
