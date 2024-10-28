@@ -20,18 +20,18 @@ ion-button {
   margin-top: 20px;
 }
 
-/* Estilo para el botón de Registrarse */
+
 .btn-custom {
-  --background: #FFFFFF; /* Fondo blanco */
-  --color: #3E2723; /* Texto en café oscuro */
-  --border: 2px solid #D3D3D3; /* Borde gris claro */
-  --box-shadow: none; /* Eliminar sombra si lo deseas */
-  transition: background-color 0.3s, border-color 0.3s; /* Suavizar transiciones */
+  --background: #FFFFFF; 
+  --color: #3E2723; 
+  --border: 2px solid #D3D3D3; 
+  --box-shadow: none; 
+  transition: background-color 0.3s, border-color 0.3s; 
 }
 
 .btn-custom:hover {
-  --background: #F0F0F0; /* Fondo más claro al pasar el ratón */
-  --border: 2px solid #A9A9A9; /* Borde más oscuro al pasar el ratón */
+  --background: #F0F0F0; 
+  --border: 2px solid #A9A9A9; 
 }
 
 ion-avatar {
@@ -43,14 +43,14 @@ ion-avatar {
 
 ion-avatar img {
   border-radius: 50%;
-  border: 2px solid #FFFFFF; /* Borde blanco alrededor de la imagen */
+  border: 2px solid #FFFFFF; 
 }
 
-/* Estilo para el enlace de iniciar sesión */
+
 .link-custom {
-  color: #FFFFFF; /* Color blanco para el enlace */
+  color: #FFFFFF; 
 }
 
 .link-custom:hover {
-  text-decoration: underline; /* Opcional: subrayar al pasar el ratón */
+  text-decoration: underline; 
 }
